@@ -12,7 +12,7 @@ if (isNaN(birthYear) || birthYear === null) {
         } else {
             const age = 2024 - birthYear;
 
-            let cityInfo = ' ';
+            let cityInfo;
             switch (nativeCity) {
                 case 'Київ':
                     cityInfo = 'Ти живеш у столиці України';
@@ -27,7 +27,7 @@ if (isNaN(birthYear) || birthYear === null) {
                     cityInfo = 'Ти живеш у місті '+ nativeCity;
             }
 
-            let sportInfo = ' ';
+            let sportInfo;
             switch (sportActivity) {
                 case 'бокс':
                     sportInfo = 'Круто! Хочеш стати як Олександр Усик?';
