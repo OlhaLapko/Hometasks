@@ -11,7 +11,7 @@ for (let dollars = 10; dollars <= 100; dollars += 10) {
         case 'usd':
             console.log(`${dollars}$ = ${dollars}$`);
             break;
-        case 'euro':
+        case 'euro':   
             newValue = Math.round(dollars * exRateDol * coefEuro);
             console.log(`${dollars}$ = ${newValue}€`);
             break;
