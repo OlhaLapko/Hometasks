@@ -4,6 +4,5 @@ function getEvenNumbers(arr) {
     return arr.filter(number => number % 2 === 0);
 }
 
-
 const even = getEvenNumbers(arr);
 console.log(even);
