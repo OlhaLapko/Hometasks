@@ -25,9 +25,9 @@ const images = [
     'img/9.jpg'
 ];
 
+
 function showImg() {
     const randIndex = Math.floor(Math.random() * images.length);
-    const randImg = images[randIndex];
-    elImg.src = randImg;
+    elImg.src = images[randIndex];
 }
 button.addEventListener('click', showImg);
